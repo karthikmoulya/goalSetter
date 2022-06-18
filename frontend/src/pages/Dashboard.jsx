@@ -41,7 +41,9 @@ const Dashboard = () => {
         <h1>Welecome {user && user.name}</h1>
         <p>Dashboard</p>
       </section>
+
       <GoalForm />
+
       <section className='content'>
         {goals.length > 0 ? (
           <div className='goals'>
